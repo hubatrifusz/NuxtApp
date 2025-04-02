@@ -1,0 +1,51 @@
+<script setup></script>
+
+<template>
+  <v-container>
+    <v-row justify="center">
+      <v-col cols="2">
+        <v-form>
+          <v-combobox
+            clearable
+            label="Márka"
+            :items="[
+              'California',
+              'Colorado',
+              'Florida',
+              'Georgia',
+              'Texas',
+              'Wyoming',
+            ]"
+            variant="outlined"
+          ></v-combobox>
+          <v-combobox
+            clearable
+            label="Modell"
+            :items="[
+              'California',
+              'Colorado',
+              'Florida',
+              'Georgia',
+              'Texas',
+              'Wyoming',
+            ]"
+            variant="outlined"
+          ></v-combobox>
+          <v-combobox
+            clearable
+            label="Üzemanyag"
+            :items="[
+              'California',
+              'Colorado',
+              'Florida',
+              'Georgia',
+              'Texas',
+              'Wyoming',
+            ]"
+            variant="outlined"
+          ></v-combobox>
+        </v-form>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
