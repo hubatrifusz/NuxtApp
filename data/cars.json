@@ -1,0 +1,424 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$24,000",
+      "description": "A reliable mid-size sedan with excellent fuel efficiency.",
+      "picture": "https://example.com/toyota_camry.jpg"
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Accord",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$25,500",
+      "description": "A stylish and comfortable sedan with great performance.",
+      "picture": "https://example.com/honda_accord.jpg"
+    },
+    {
+      "id": 3,
+      "make": "Tesla",
+      "model": "Model Y",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$52,000",
+      "description": "A cutting-edge electric SUV with impressive range and technology.",
+      "picture": "https://example.com/tesla_model_y.jpg"
+    },
+    {
+      "id": 4,
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$53,000",
+      "description": "An all-electric SUV that combines performance with sustainability.",
+      "picture": "https://example.com/ford_mustang_mach_e.jpg"
+    },
+    {
+      "id": 5,
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$34,000",
+      "description": "A rugged full-size pickup truck with impressive towing capacity.",
+      "picture": "https://example.com/chevrolet_silverado.jpg"
+    },
+    {
+      "id": 6,
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$33,000",
+      "description": "A spacious and efficient hybrid SUV with advanced safety features.",
+      "picture": "https://example.com/hyundai_santa_fe.jpg"
+    },
+    {
+      "id": 7,
+      "make": "Kia",
+      "model": "Sorento",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$35,000",
+      "description": "A versatile hybrid SUV offering both power and fuel efficiency.",
+      "picture": "https://example.com/kia_sorento.jpg"
+    },
+    {
+      "id": 8,
+      "make": "Nissan",
+      "model": "Rogue",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$28,000",
+      "description": "A compact SUV with a comfortable ride and modern features.",
+      "picture": "https://example.com/nissan_rogue.jpg"
+    },
+    {
+      "id": 9,
+      "make": "BMW",
+      "model": "X5",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$65,000",
+      "description": "A luxury hybrid SUV with powerful performance and premium features.",
+      "picture": "https://example.com/bmw_x5.jpg"
+    },
+    {
+      "id": 10,
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$55,000",
+      "description": "A luxurious sedan that balances performance and comfort.",
+      "picture": "https://example.com/mercedes_benz_e_class.jpg"
+    },
+    {
+      "id": 11,
+      "make": "Audi",
+      "model": "Q5",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$48,000",
+      "description": "A compact luxury SUV with a comfortable cabin and advanced technology.",
+      "picture": "https://example.com/audi_q5.jpg"
+    },
+    {
+      "id": 12,
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$30,000",
+      "description": "A compact SUV with a smooth ride and efficient fuel economy.",
+      "picture": "https://example.com/volkswagen_tiguan.jpg"
+    },
+    {
+      "id": 13,
+      "make": "Subaru",
+      "model": "Forester",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$27,000",
+      "description": "A practical and reliable SUV with standard all-wheel drive.",
+      "picture": "https://example.com/subaru_forester.jpg"
+    },
+    {
+      "id": 14,
+      "make": "Mazda",
+      "model": "Mazda3",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$24,500",
+      "description": "A compact car with sporty handling and stylish design.",
+      "picture": "https://example.com/mazda_mazda3.jpg"
+    },
+    {
+      "id": 15,
+      "make": "Lexus",
+      "model": "NX 350",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$42,000",
+      "description": "A luxury hybrid SUV with advanced technology and a premium ride.",
+      "picture": "https://example.com/lexus_nx_350.jpg"
+    },
+    {
+      "id": 16,
+      "make": "Jaguar",
+      "model": "F-PACE",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$60,000",
+      "description": "A high-performance luxury SUV with a dynamic design.",
+      "picture": "https://example.com/jaguar_fpace.jpg"
+    },
+    {
+      "id": 17,
+      "make": "Porsche",
+      "model": "Cayenne",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$80,000",
+      "description": "A luxurious hybrid SUV offering exceptional performance and comfort.",
+      "picture": "https://example.com/porsche_cayenne.jpg"
+    },
+    {
+      "id": 18,
+      "make": "Ferrari",
+      "model": "296 GTB",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$320,000",
+      "description": "A high-performance hybrid sports car with stunning design and speed.",
+      "picture": "https://example.com/ferrari_296_gtb.jpg"
+    },
+    {
+      "id": 19,
+      "make": "Lamborghini",
+      "model": "Revuelto",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$450,000",
+      "description": "A state-of-the-art hybrid supercar with explosive performance.",
+      "picture": "https://example.com/lamborghini_revuelto.jpg"
+    },
+    {
+      "id": 20,
+      "make": "McLaren",
+      "model": "750S",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$310,000",
+      "description": "A cutting-edge supercar offering unmatched speed and technology.",
+      "picture": "https://example.com/mclaren_750s.jpg"
+    },
+    {
+      "id": 21,
+      "make": "Volvo",
+      "model": "XC90",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$70,000",
+      "description": "A spacious and luxurious hybrid SUV with advanced safety features.",
+      "picture": "https://example.com/volvo_xc90.jpg"
+    },
+    {
+      "id": 22,
+      "make": "Genesis",
+      "model": "GV70",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$53,000",
+      "description": "A premium luxury SUV offering a smooth ride and cutting-edge technology.",
+      "picture": "https://example.com/genesis_gv70.jpg"
+    },
+    {
+      "id": 23,
+      "make": "Acura",
+      "model": "MDX",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$58,000",
+      "description": "A well-equipped luxury SUV with three-row seating and a smooth ride.",
+      "picture": "https://example.com/acura_mdx.jpg"
+    },
+    {
+      "id": 24,
+      "make": "Mitsubishi",
+      "model": "Eclipse Cross",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$27,500",
+      "description": "A compact SUV offering great value with modern technology and style.",
+      "picture": "https://example.com/mitsubishi_eclipse_cross.jpg"
+    },
+    {
+      "id": 25,
+      "make": "Peugeot",
+      "model": "3008",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$40,000",
+      "description": "A hybrid SUV combining practicality with European styling.",
+      "picture": "https://example.com/peugeot_3008.jpg"
+    },
+    {
+      "id": 26,
+      "make": "Renault",
+      "model": "Megane E-Tech",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$45,000",
+      "description": "A stylish and efficient electric car with impressive range.",
+      "picture": "https://example.com/renault_megane_e_tech.jpg"
+    },
+    {
+      "id": 27,
+      "make": "Fiat",
+      "model": "Panda",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$16,000",
+      "description": "A compact city car that’s easy to park and fuel-efficient.",
+      "picture": "https://example.com/fiat_panda.jpg"
+    },
+    {
+      "id": 28,
+      "make": "Citroën",
+      "model": "C5 Aircross",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$39,000",
+      "description": "A stylish and comfortable hybrid SUV with a smooth ride.",
+      "picture": "https://example.com/citroen_c5_aircross.jpg"
+    },
+    {
+      "id": 29,
+      "make": "Opel",
+      "model": "Grandland",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$42,500",
+      "description": "A spacious hybrid SUV offering a premium driving experience.",
+      "picture": "https://example.com/opel_grandland.jpg"
+    },
+    {
+      "id": 30,
+      "make": "Alfa Romeo",
+      "model": "Stelvio",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$50,000",
+      "description": "A luxury SUV with sporty handling and a striking design.",
+      "picture": "https://example.com/alfa_romeo_stelvio.jpg"
+    },
+    {
+      "id": 31,
+      "make": "Toyota",
+      "model": "RAV4",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$35,500",
+      "description": "A compact hybrid SUV offering a combination of efficiency and ruggedness.",
+      "picture": "https://example.com/toyota_rav4.jpg"
+    },
+    {
+      "id": 32,
+      "make": "Honda",
+      "model": "CR-V",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$36,000",
+      "description": "A hybrid SUV that delivers great fuel economy and a spacious interior.",
+      "picture": "https://example.com/honda_crv.jpg"
+    },
+    {
+      "id": 33,
+      "make": "Tesla",
+      "model": "Model S",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$85,000",
+      "description": "A luxury electric sedan offering groundbreaking technology and performance.",
+      "picture": "https://example.com/tesla_model_s.jpg"
+    },
+    {
+      "id": 34,
+      "make": "Ford",
+      "model": "Explorer",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$52,000",
+      "description": "A spacious hybrid SUV with plenty of room for the family.",
+      "picture": "https://example.com/ford_explorer.jpg"
+    },
+    {
+      "id": 35,
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "fuel_type": "Gasoline",
+      "year": 2023,
+      "price": "$25,000",
+      "description": "A midsize sedan with a comfortable ride and modern tech features.",
+      "picture": "https://example.com/chevrolet_malibu.jpg"
+    },
+    {
+      "id": 36,
+      "make": "Hyundai",
+      "model": "Kona Electric",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$38,000",
+      "description": "An electric compact SUV with a fun driving experience and long range.",
+      "picture": "https://example.com/hyundai_kona_electric.jpg"
+    },
+    {
+      "id": 37,
+      "make": "Kia",
+      "model": "EV6",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$55,000",
+      "description": "An all-electric SUV with modern design and impressive range.",
+      "picture": "https://example.com/kia_ev6.jpg"
+    },
+    {
+      "id": 38,
+      "make": "Nissan",
+      "model": "Leaf",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$30,000",
+      "description": "A popular and affordable electric car with a great range.",
+      "picture": "https://example.com/nissan_leaf.jpg"
+    },
+    {
+      "id": 39,
+      "make": "BMW",
+      "model": "iX",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$90,000",
+      "description": "A luxury electric SUV with excellent performance and cutting-edge tech.",
+      "picture": "https://example.com/bmw_ix.jpg"
+    },
+    {
+      "id": 40,
+      "make": "Mercedes-Benz",
+      "model": "GLC",
+      "fuel_type": "Hybrid",
+      "year": 2023,
+      "price": "$65,000",
+      "description": "A luxurious hybrid SUV offering a premium ride and advanced features.",
+      "picture": "https://example.com/mercedes_benz_glc.jpg"
+    },
+    {
+      "id": 41,
+      "make": "Audi",
+      "model": "e-tron",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$75,000",
+      "description": "An all-electric luxury SUV with a smooth ride and impressive range.",
+      "picture": "https://example.com/audi_e_tron.jpg"
+    },
+    {
+      "id": 42,
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "fuel_type": "Electric",
+      "year": 2023,
+      "price": "$45,000",
+      "description": "A practical and affordable electric SUV with good range and features.",
+      "picture": "https://example.com/volkswagen_id4.jpg"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   <v-app>
     <div>
       <AppHeader />
-      Használhatatlanautó hu
+      Használhatatlanautó.hu
       <slot />
       <AppFooter />
     </div>
